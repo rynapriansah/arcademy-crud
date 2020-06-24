@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+
+.container-dua{
+	max-width: 1100px;
+	margin: 20px auto;
+
+}
+.card {
+	
+	width: 250px;
+	float:left;
+	transition: all 0.5s;
+}
+
+img {
+	width: 300px;
+	height: 150px;
+}
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.jumbotron{
+	height: 500px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 0 -140px;
+	overflow: hidden;
+	position: relative;
+}
+
+.jumbotron img {
+	width: 200px;
+	border-radius:  30px solid #000;
+}
+
+.jumbotron h1, .jumbotron p {
+	color: rgba(0,0,0,.8);
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+
+
+@media all and (max-width: 670px) {
+  .card {
+    width: 95%;
+  }
+  
